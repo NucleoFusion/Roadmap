@@ -130,7 +130,71 @@ flowchart TD
 4. **Performance Optimization**  
    \- Add caching, optimize queries, learn how load balancing works.
 
+# 📊 DevOps
+
+```mermaid
+flowchart TD
+  A(Continuous Integration / Continuous Deployment - CI/CD) --> A1(Learn CI Concepts)
+  A --> A2(Learn CD Concepts)
+  A --> A3(Practice with Jenkins, GitHub Actions)
+
+  B(Infrastructure as Code - IaC) --> B1(Learn IaC Concepts)
+  B --> B2(Practice Terraform Basics)
+
+  C(Configuration Management) --> C1(Learn Ansible Basics)
+
+  D(Container Orchestration) --> D1(Learn Kubernetes Basics)
+  D --> D2(Understand Helm)
+
+  E(Cloud Services) --> E1(Learn AWS Core Services - EC2, S3, IAM)
+
+  F(Monitoring and Logging) --> F1(Setup Prometheus and Grafana)
+  F --> F2(Understand ELK Stack)
+
+  G(Security in DevOps) --> G1(Learn Secrets Management)
+  G --> G2(Understand CI/CD Pipeline Security)
+  G --> G3(Learn Container Security Practices)
+```
+
+---
+
+## 📚 Resources (Free / Mostly Free)
+
+| Topic | Free Resources |
+|:---|:---|
+| **CI/CD** | - [CI/CD Pipeline with Jenkins - FreeCodeCamp](https://www.freecodecamp.org/news/jenkins-ci-cd-pipeline-tutorial/) <br> - [GitHub Actions Documentation](https://docs.github.com/en/actions) |
+| **Infrastructure as Code (IaC)** | - [Learn Terraform - HashiCorp Free Tutorials](https://developer.hashicorp.com/terraform/tutorials) |
+| **Configuration Management (Ansible)** | - [Ansible for Absolute Beginners - KodeKloud](https://kodekloud.com/courses/ansible-basics/) (Free trial available) <br> - [Ansible Documentation](https://docs.ansible.com/ansible/latest/index.html) |
+| **Container Orchestration (Kubernetes, Helm)** | - [Kubernetes Official Docs - Learn Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/) <br> - [Helm Official Documentation](https://helm.sh/docs/) |
+| **Cloud Services (AWS Basics)** | - [AWS Free Tier + AWS Educate (Free Courses)](https://aws.amazon.com/training/awseducate/) <br> - [AWS EC2, S3, IAM - FreeCodeCamp](https://www.freecodecamp.org/news/aws-certification-cloud-practitioner-study-guide/) |
+| **Monitoring and Logging** | - [Prometheus and Grafana Free Tutorials - Prometheus Docs](https://prometheus.io/docs/introduction/overview/) <br> - [ELK Stack Overview - Elastic Docs](https://www.elastic.co/what-is/elk-stack) |
+| **Security in DevOps** | - [Vault by HashiCorp - Learn Vault (Official)](https://developer.hashicorp.com/vault/docs) <br> - [CI/CD Security Basics - OWASP Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/CI_CD_Security_Cheat_Sheet.html) |
+
+---
+
+## 🛠️ Small Projects To Solidify Each
+
+| Topic | Mini-Project |
+|:---|:---|
+| **CI/CD** | Setup Jenkins pipelines for automatic testing and deployment of a simple Node.js app |
+| **Infrastructure as Code (IaC)** | Write Terraform scripts to provision an EC2 instance with a web server |
+| **Configuration Management (Ansible)** | Use Ansible to configure a server with NGINX and firewall rules |
+| **Container Orchestration (Kubernetes, Helm)** | Deploy a basic web app (e.g., Todo app) to Kubernetes using Helm charts |
+| **Cloud Services (AWS Basics)** | Host a static website on S3 with a custom domain (optional: Add IAM user permissions) |
+| **Monitoring and Logging** | Setup Prometheus + Grafana to monitor a dummy server (basic CPU/memory metrics) |
+| **Security in DevOps** | Integrate Vault for secret storage in a simple CI/CD pipeline (like API keys during deployment) |
+
+---
+
+# 🚀 Suggested Learning Order
+
+1. **Start with CI/CD** → Understand how builds/deployments are automated.
+2. **Learn Infrastructure as Code (Terraform)** → Automate cloud resource creation.
+3. **Learn Configuration Management (Ansible)** → Manage server setup easily.
+4. **Learn Container Orchestration (Kubernetes + Helm)** → Manage and scale apps.
+5. **Understand Cloud Services (AWS basics)** → Host, store, and manage resources.
+6. **Learn Monitoring and Logging (Prometheus, ELK)** → Track performance and find issues.
+7. **End with Security Practices** → Secure your deployments and secrets.
 5. **Communication with Other Services**  
    \- Learn microservices, queues, and integrate third-party services.
 
-✅ This sequence helps you "stack" knowledge practically like in real-world backend projects!
