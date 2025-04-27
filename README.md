@@ -50,7 +50,9 @@ flowchart TD
 | OS | Write a bootloader that prints text, then a kernel that changes colors. |
 
 
-# 📊 Backend Development (Flowchart)
+
+
+# Backend Development
 
 ```mermaid
 flowchart TD
@@ -78,8 +80,6 @@ flowchart TD
 ```
 
 ---
-
-# Backend Development
 
 ## 📚 Resources (Mostly Free)
 
