@@ -206,10 +206,9 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    A[Go (Advanced Topics)] --> B[Zig (Beginner → Advanced)]
-    B --> C[C# (Beginner → Advanced)]
-    C --> D[Rust (Beginner → Advanced)]
-    D --> E[(Optional) Java Basics]
+    A[Go - Advanced Topics] --> B[Zig ]
+    B --> C[C# ]
+    C --> D[Rust ]
 ```
 
 ---
