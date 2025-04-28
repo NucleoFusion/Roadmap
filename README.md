@@ -198,3 +198,65 @@ flowchart TD
 5. **Communication with Other Services**  
    \- Learn microservices, queues, and integrate third-party services.
 
+# 📚 Programming Languages Mastery Roadmap (Post-CS:APP)
+
+---
+
+## 🚀 Roadmap Flowchart
+
+```mermaid
+flowchart TD
+    A[Go (Advanced Topics)] --> B[Zig (Beginner → Advanced)]
+    B --> C[C# (Beginner → Advanced)]
+    C --> D[Rust (Beginner → Advanced)]
+    D --> E[(Optional) Java Basics]
+```
+
+---
+
+## 🚀 Phase Breakdown + Free Resources
+
+| Language Phase | What to Learn | Free Resource |
+|:---|:---|:---|
+| **Go (Advanced)** | Go internals, goroutines, channels, memory model, production systems. | [Mastering Go (First Edition Free)](https://github.com/Mastering-Go/book) |
+| **Zig (Beginner → Adv)** | Syntax, memory management, error handling, comptime, interop with C. | [Zig Learn](https://ziglearn.org/) / [Official Zig Documentation](https://ziglang.org/documentation/master/) |
+| **C# (Beginner → Adv)** | OOP, async/await, .NET Core, Entity Framework, APIs. | [C# Yellow Book](https://www.csharpcourse.com/) / [Microsoft Learn C# Path](https://learn.microsoft.com/en-us/training/paths/csharp-first-steps/) |
+| **Rust (Beginner → Adv)** | Ownership, borrowing, lifetimes, async Rust, unsafe code basics, traits, crates. | [The Rust Book (Official)](https://doc.rust-lang.org/book/) / [Rustlings Exercises](https://github.com/rust-lang/rustlings) |
+| **(Optional) Java Basics** | Java syntax, JVM basics, OOP, simple multithreading. | [Java Programming MOOC](https://www.mooc.fi/en/) / [CS50 Java Track](https://cs50.harvard.edu/java/) |
+
+---
+
+## 🛠️ Suggested Flow of Practice
+
+```plaintext
+Go (Advanced) → Zig (Mastery) → C# (Mastery) → Rust (Mastery) → [Optional: Java Basics]
+```
+
+---
+
+## 🌟 Real Project Suggestions
+
+| Language | Project |
+|:---|:---|
+| Go | Concurrent web crawler, task scheduler CLI tool. |
+| Zig | Low-level TCP server, file format parser. |
+| C# | CRUD API with ASP.NET Core and Entity Framework. |
+| Rust | Build a mini HTTP server, CLI utilities (like ripgrep). |
+| Java (Optional) | Multithreaded chat app, simple Spring Boot REST API. |
+
+---
+
+## 📜 Notes
+- **Go** → Focus on high-concurrency real-world systems.
+- **Zig** → Focus on memory safety + manual control.
+- **C#** → Focus on modern .NET Core workflows, async.
+- **Rust** → Deep dive into ownership, async (tokio), and building safe+fast software.
+- **Java** → Only if needed — optional.
+
+---
+
+# 💪 Language Mastery Focus: Real-World Projects > Tutorials
+
+---
+
+_Nucleo's Programming Language Learning Plan — v1.0_
